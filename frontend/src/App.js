@@ -9,7 +9,7 @@ function App() {
   return (
     <>
           <Header />
-         <main>
+         <main className= 'py-3'>
               <Container>
 
                         <h1> Welcome to Art Swift shop </h1>
