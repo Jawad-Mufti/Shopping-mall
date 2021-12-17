@@ -2,6 +2,7 @@ import React from "react"
 import {Container} from 'react-bootstrap'
 import Header from "./Components/Header" //we do not put curly braces becasue we have defined them as defaults when we exported them
 import Footer from "./Components/Footer"
+import homescreen from "./screens/homescreen"
 //we do not put curly braces becasue we have defined them as defaults when we exported them
 
 
@@ -12,7 +13,7 @@ function App() {
          <main className= 'py-3'>
               <Container>
 
-                        <h1> Welcome to Art Swift shop </h1>
+                 <homescreen/>    
 
                </Container>
          </main>
